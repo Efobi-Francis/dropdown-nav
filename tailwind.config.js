@@ -9,6 +9,8 @@ export default {
       'epilogue': ['Epilogue', 'system-ui']
     },
     screens: {
+      'sm': '375px',
+      // => @media (min-width: 375px) { ... }
       'lg': '1440px',
       // => @media (min-width: 1440px) { ... }
     },
