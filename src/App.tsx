@@ -12,7 +12,7 @@ function App() {
         <Navigation/>
         <img src={mobilehero} alt="image-hero-mobile" className=' lg:hidden' />
         <div className=' lg:flex lg:px-44 lg:gap-4 lg:mt-10'>
-          <img src={desktophero} alt="image-hero-desktop" className='hidden lg:block lg:order-2 lg:w-full lg:h-full' />
+          <img src={desktophero} alt="image-hero-desktop" className='hidden lg:flex lg:order-2 lg:w-full lg:h-full' />
           <Hero/>
         </div>
         
