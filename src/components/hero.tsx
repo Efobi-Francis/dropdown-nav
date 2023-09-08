@@ -5,7 +5,7 @@ import ClientMaker from '../assets/images/client-maker.svg'
 
 export default function Hero() {
     return (
-        <div className='px-5 mt-8 mb-48 lg:pt-20 lg:pr-36'>
+        <div className='px-5 mt-8 mb-48 lg:pt-20 lg:pr-32'>
             <div className=" flex flex-col items-center lg:items-start">
                 <h1 className=" text-4xl font-bold text-[hsl(0,0%,8%)] lg:text-7xl">Make remote work</h1>
                 <p className=" text-center lg:text-start lg:pr-11 lg:my-10 text-base lg:text-lg my-6 text-[hsl(0,0%,41%)] font-medium">
